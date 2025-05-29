@@ -13787,8 +13787,8 @@ class App {
   constructor() {
     this.name = "Reward Explorers";
     this.version = "1.0.0";
-    this.apiBase = 'http://localhost:3000'; // local
-    //this.apiBase = 'https://instant-duality-460407-t2.ts.r.appspot.com/'  // live
+    //this.apiBase = 'http://localhost:3000'; // local
+    this.apiBase = 'https://instant-duality-460407-t2.ts.r.appspot.com/'  // live
     this.rootEl = document.getElementById("root");
   }
   init() {
